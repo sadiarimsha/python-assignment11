@@ -1,0 +1,11 @@
+1. Reflect on the differences between static and interactive visualizations.
+Static visualizations like Matplotlib are not interactive. You can't touch or change them. They are like a picture.
+Interactive visualizations like Plotly are interactive. You can click items and zoom. They act like a webpage.
+
+
+2. Write a short paragraph discussing the advantages of using dashboards for real-time data exploration.
+Multiple charts can be displayed on the screen. You can apply filters. Dashboard viewer does not need to have python knowledge to use these. They are very accessible and can be shared via a link. They greatly reduce manual work. 
+
+
+3. Explain how interactive tools like Plotly can improve data communication in professional settings.
+Plotly let the viewer hover, zoom and focus on areas of their interests. Clients can filter data and dive deep to learn about emerging trends. They can handle complex data better because you can add filters and toggling.
