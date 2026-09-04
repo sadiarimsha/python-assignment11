@@ -23,10 +23,6 @@ try:
         df = pd.read_sql_query(sql_statement, conn)
         print(df)
 
-        def cumulative(row):
-            totals_above = df['total_price'][0:row.name+1]
-            return totals_above.sum()
-
         df['cumulative'] = df['total_price'].cumsum()
 
         # Line Plot
